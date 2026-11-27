@@ -1,7 +1,6 @@
 import { loadLessonPage } from "./lib/load-lesson-page";
 
 export { loadLessonPage };
-export type { FoundCourseDecisions } from "./lib/load-lesson-page";
 export { getCommentById } from "./lib/thread";
 export { markLessonComplete } from "./lib/progress";
 export { computeResult, getQuizById } from "./lib/quiz";
